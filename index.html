@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <main>
+        <header id="header">
+            <div class="player player-active" id="XplayerDisplay" 
+            onclick="choosePlayer('X')">
+              X
+            </div>
+            <h3 class="titleHeader">Choose</h3>
+            <div class="player player-active" id="oplayerDisplay" 
+            onclick="choosePlayer('O')">
+                O
+            </div>
+        </header>
+
+        <div id="Board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+  
+        </div>
+        
+   <button class="restartbtn "> Restart</button>
+   <!-- <button class=" auto-btn"> Auto-Mode</button> -->
+
+    </main>
+ <script src="app.js"></script>
+ </body>
+ </html>
